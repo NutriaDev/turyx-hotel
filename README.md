@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## </details>
 
-## Getting Started
+<details>
+   <summary><h2>🏨 TURYXHOTEL</h2></summary>
+<p align="center">
 
-First, run the development server:
+**TuryxHotel** es una plataforma integral para gestión hotelera con enfoque en **automatización**, **seguridad** y **experiencia del usuario**. Su proposito es poder lograr el crecimiento del turismo domestico y levantar la visibilidad de sus clientes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este proyecto es **colaborativo**, que esta siendo desarrollado por un equipo, aplicando buenas prácticas y arquitectura escalable para garantizar calidad y mantenibilidad.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h2>💹 SERVICIOS A INTEGRAR</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✔ 🔐 Servicio de Reserva con Ciberseguridad Integrada  
+✔ 💬 Integración con WhatsApp + Automatización (n8n)
+✔ 💳 Pasarela de Pago
+✔ 🧑‍💼 Sistema de Roles y Perfiles
+✔🖼️ Galería de Fotos
+✔ 🔐 Autenticación Segura
+✔ 🔐 Panel Administrativo
 
-## Learn More
+</p>
+</details>
 
-To learn more about Next.js, take a look at the following resources:
+<details>
+ <summary><h2>🔥Paso a paso para desarrollar con nosotros</h2></summary>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <div>   
+   <p>
+   <strong>🎶0. Requisitos Previos: </strong>   
+   </p>
+     <ul>
+         <li>✔ Node.js v18+ y npm</li>
+         <li>✔ Git</li>        
+         <li>✔ Extensiones recomendadas:  - ESLint
+  - Prettier
+  - Tailwind CSS IntelliSense </li>
+         <li>✔ Docker (opcional, si quieres levantar backend o Mongo en local)  </li>
+       <li>✔ Navegador con cookies habilitadas  </li>      
+     </ul>
+      <table>
+         <tr>
+            <td>♣️1. Clonar Repositorio</td>
+            <td><strong>git clone https://github.com/DianaArevalo/TuryxHotel-FronEnd.git</strong> cd TuryxHome</td>
+         </tr>
+         <tr>
+            <td>✨2. Inicializar con Git Flow</td>
+            <td>
+               <strong>git flow init</strong> 
+               <strong>git flow feature start feat/nombre-asignado</strong> 
+            </td>
+         </tr>
+          <tr>
+            <td>💻3. Instalar dependencias necesarias para desarrollar</td>
+            <td> 
+              <code>npm install</code>
+              #dependencias recomendadas
+              []Next.js
+              []React + React-DOM
+              []TailwindCSS
+              []Axios (o fetch API)
+              []Zustand o Redux (si aplica)
+              []Jest + React Testing Library
+              []ESLint + Prettier
+            </td>
+         </tr>
+         <tr>
+            <td>🖥️4. Desarrollo</td>
+            <td>
+               <ul>
+         <li>✔ Seguir desarrollo segun historias de usuario que le seran asignadas</li>
+         <li>✔ Sigue la arquitectura: domain → application  → infrastructure </li>
+         <li>✔ Añade tests unitarios en tests</li>                 
+               </ul>
+            </td>
+         </tr>
+           <tr>
+            <td>⌨️5. Pruebas con back</td>
+            <td>
+                <ul>
+                     <li>1. Verificar URL´s</li>
+                     <li>2. Las respuestas deben de llevar el formato ApiResponse que se encuentra en la carpeta de Shared: <strong>success</strong>,
+                     <strong>title</strong>, <strong>message</strong> y <strong>body</strong> </li>
+                     <li>3. Las respuestas y peticiones deben ir documentados en el README y Pull Request</li>                 
+                           </ul>
+                        </td>
+         </tr>
+           <tr>
+            <td>🖱️6. Ejecutar test y coverage</td>
+            <td>
+               <strong>npx jest --coverage</strong>             
+            </td>
+         </tr>
+           <tr>
+    <td>✨7. Habilitar Pull Request para revisión</td>
+    <td>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ Checklist antes de enviar el PR
 
-## Deploy on Vercel
+- [ ] Código formateado (Prettier/ESLint)
+- [ ] Tests añadidos y todos pasan correctamente
+- [ ] Documentación actualizada (README del módulo si aplica)
+- [ ] Capturas de Postman incluidas
+- [ ] Coverage mínimo del 90% (incluir imagen en el PR)
+- [ ] Asignar reviewers
+- [ ] Etiquetar la historia de usuario correspondiente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    </td>
+  </tr>
+      </table>   
+   </div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   </details>
+
+---
+
+
+<details>
+   <summary><h2> TERMINOS Y CONDICIONES </h2></summary>
+
+<p>
+   Condiciones de Colaboración
+Este proyecto se desarrolla bajo las siguientes condiciones:
+✅ Objetivo actual: aprendizaje, práctica y aplicación de buenas prácticas en desarrollo de software.
+✅ Sin remuneración por el momento: Actualmente no hay pagos ni compensaciones, ya que el proyecto está en etapa inicial.
+✅ Fines comerciales futuros: Si el proyecto se consolida y comienza a generar ingresos, los colaboradores que aportaron en esta fase inicial serán tenidos en cuenta en la estructura del equipo o en beneficios acordados.
+✅ Código compartido y colaborativo: Todo el trabajo será gestionado en repositorios colaborativos y versionado correctamente.
+✅ Reconocimiento de autoría: Cada contribución será registrada en la sección de colaboradores y en el historial del repositorio.
+</p>
+
+</details>
