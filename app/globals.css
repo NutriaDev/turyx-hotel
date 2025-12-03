@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+/* Tailwind Base */
+@tailwind utilities;
+
+/* Estilos Globales */
+@layer base {
+  body {
+    @apply bg-[#F1FAEE] text-gray-900 dark:bg-[#1D3557] dark:text-gray-100;
+  }
+
+  /* Opcional: Color del scrollbar (para que combine con tu UI) */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  }
+
+  ::selection {
+    @apply bg-orange-300 text-gray-900;
+  }
+}
+
+/* Tus utilidades personalizadas */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
